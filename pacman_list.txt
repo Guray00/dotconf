@@ -33,7 +33,6 @@ eog
 eos-hooks
 eos-log-tool
 eos-update-notifier
-epiphany
 ethtool
 evince
 f2fs-tools
@@ -181,7 +180,6 @@ solid
 sudo
 sushi
 sysfsutils
-telegram-desktop
 texinfo
 tldr
 tlp
