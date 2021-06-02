@@ -10,6 +10,13 @@ git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/ 
 
 ## Utils
 
+### Software
+#### Pacman
+```bash
+pacman -S - < pacman_list.txt
+```
+
+
 ### Screenshot
 ```bash
 ./screenshot_manager.sh
