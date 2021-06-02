@@ -29,7 +29,6 @@ dnsmasq
 efibootmgr
 endeavouros-keyring
 endeavouros-mirrorlist
-endeavouros-theming
 eog
 eos-hooks
 eos-log-tool
@@ -41,9 +40,6 @@ f2fs-tools
 fakeroot
 ffmpegthumbnailer
 file-roller
-firefox
-firefox-i18n-it
-flameshot
 flex
 gcc
 gdm
@@ -88,8 +84,6 @@ gnome-video-effects
 gnome-weather
 gnu-netcat
 grilo-plugins
-grub
-grub-tools
 grub2-theme-endeavouros
 gst-libav
 gst-plugin-pipewire
@@ -224,7 +218,6 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
-xterm
 yad-eos
 yay
 yelp
