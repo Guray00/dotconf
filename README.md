@@ -22,6 +22,12 @@ Per recuperare la lista puoi digitare `pacman -Qm`
 yay -S - < aur_list.txt
 ```
 
+
+## Bluetooth
+```bash
+./bluetooth.sh
+```
+
 ## Screenshot
 ```bash
 ./screenshot_manager.sh
