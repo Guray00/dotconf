@@ -4,7 +4,7 @@ Repo di configurazione per EndevourOS [Arch linux]
 
 Per inizializzare la repo:
 ```bash
-rm -Rf /tmp/dotconf/ && git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/ && chmod a+rwx *.sh
+git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/ && chmod a+rwx *.sh
 ```
 
 
