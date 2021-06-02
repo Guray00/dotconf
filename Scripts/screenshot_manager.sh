@@ -3,7 +3,7 @@
 # CHANGES SCREENSHOT MANAGER
 # reference: https://askubuntu.com/questions/1036473/how-to-change-screenshot-application-to-flameshot-on-ubuntu-18-04/1039949#1039949
 
-yay -Syu --noconfirm flameshot
+yay -S --noconfirm --quiet flameshot
 gsettings set org.gnome.settings-daemon.plugins.media-keys screenshot '[]'
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name 'flameshot'
@@ -13,6 +13,10 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 
 
 # import configuration
+
+# when installed, config files does not exits
+mkdir -p ~/.config/flameshot/
+touch ~/.config/flameshot/flameshot.ini
 cat > ~/.config/flameshot/flameshot.ini <<- EOM
 [General]
 buttons=@Variant(\0\0\0\x7f\0\0\0\vQList<int>\0\0\0\0\xf\0\0\0\0\0\0\0\x1\0\0\0\x2\0\0\0\x3\0\0\0\x4\0\0\0\x5\0\0\0\x6\0\0\0\x12\0\0\0\a\0\0\0\b\0\0\0\t\0\0\0\x10\0\0\0\n\0\0\0\v\0\0\0\f)
