@@ -7,7 +7,7 @@ rm -Rf /tmp/dotconf/extensions
 mkdir /tmp/dotconf/extensions
 
 # creating a zip file with infos
-tar -cvf ./extensions/extensions.tar ~/.local/share/gnome-shell/extensions/
+tar -cvf ./extensions/extensions.tar ~/.local/share/gnome-shell/extensions/ &>/dev/null
 
 # backing up dconf
-dconf dump /org/gnome/shell/extensions/ > ./extensions/extension-settings.dconf
+dconf dump /org/gnome/shell/extensions/ > ./extensions/extension-settings.dconf &>/dev/null
