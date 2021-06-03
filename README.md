@@ -8,7 +8,7 @@ rm -Rf /tmp/dotconf/
 
 Per inizializzare la repo:
 ```bash
-git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/Scripts && chmod a+rwx *.sh
+git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/scripts && chmod a+rwx *.sh
 ```
 
 
@@ -31,13 +31,13 @@ Reference: https://www.reddit.com/r/gnome/comments/afuw4h/moving_extensions_and_
 
 ### Export
 ```bash
-/tmp/dotconf/Scripts/backup_extensions.sh
+/tmp/dotconf/scripts/backup_extensions.sh
 ```
 
 ### Import
 
 ```bash
-/tmp/dotconf/Scripts/import_extensions.sh
+/tmp/dotconf/scripts/import_extensions.sh
 ```
 
 ## SSH senza password
@@ -58,13 +58,13 @@ _10.8.0.1 per server e 10.8.0.7 per rasp_
 ## Bluetooth
 Su endevourOS il bluetooth è disabilitato di default, eseguire la patch con:
 ```bash
-/tmp/dotconf/Scripts/bluetooth.sh
+/tmp/dotconf/scripts/bluetooth.sh
 ```
 
 ## Modelli
 Per ottenere rapidamente i modelli per la creazione di nuovi file eseguire la patch:
 ```bash
-/tmp/dotconf/Scripts/models.sh
+/tmp/dotconf/scripts/models.sh
 ```
 
 ## Open in Code
@@ -75,5 +75,5 @@ wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.
 ## Screenshot
 Il gestore screenshot di default non è molto utile in quanto non consente di editare facilmente gli screenshot, viene dunque sostituito in favore di flameshot applicando la patch:
 ```bash
-/tmp/dotconf/Scripts/screenshot_manager.sh
+/tmp/dotconf/scripts/screenshot_manager.sh
 ```
