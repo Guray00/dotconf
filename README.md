@@ -61,6 +61,11 @@ Su endevourOS il bluetooth è disabilitato di default, eseguire la patch con:
 /tmp/dotconf/Scripts/bluetooth.sh
 ```
 
+## Open in Code
+```bash
+wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
+```
+
 ## Screenshot
 Il gestore screenshot di default non è molto utile in quanto non consente di editare facilmente gli screenshot, viene dunque sostituito in favore di flameshot applicando la patch:
 ```bash
