@@ -32,10 +32,10 @@ pressure-threshold=100
 show-in-overview=true
 
 [ncom/github/hermes83/compiz-alike-windows-effect]
-friction=25.629441624365484
-manual-restore-factor=4.563451776649746
+friction=50.253807106598984
+manual-restore-factor=6.5050761421319798
 maximize-effect-enabled=false
-spring=43.218274111675122
+spring=59.299492385786806
 x-tiles=3.5177664974619289
 y-tiles=3.5177664974619289
 
