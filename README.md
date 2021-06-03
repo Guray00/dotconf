@@ -61,6 +61,12 @@ Su endevourOS il bluetooth è disabilitato di default, eseguire la patch con:
 /tmp/dotconf/Scripts/bluetooth.sh
 ```
 
+## Modelli
+Per ottenere rapidamente i modelli per la creazione di nuovi file eseguire la patch:
+```bash
+/tmp/dotconf/Scripts/models.sh
+```
+
 ## Open in Code
 ```bash
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
