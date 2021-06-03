@@ -77,3 +77,10 @@ Il gestore screenshot di default non è molto utile in quanto non consente di ed
 ```bash
 /tmp/dotconf/scripts/screenshot_manager.sh
 ```
+
+## Fonts
+Pacchetti font molto utili e gradevoli:
+```bash
+sudo pacman -S --noconfirm fira-code
+yay -S --noconfirm ttf-ms-fonts
+```
