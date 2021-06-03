@@ -84,3 +84,10 @@ Pacchetti font molto utili e gradevoli:
 sudo pacman -S --noconfirm fira-code
 yay -S --noconfirm ttf-ms-fonts
 ```
+
+
+## Tema e icone
+Installa il tema whitesur e relative icone
+```bash
+/tmp/dotconf/scripts/theme.sh
+```
