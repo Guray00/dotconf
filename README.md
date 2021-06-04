@@ -72,6 +72,12 @@ Per ottenere rapidamente i modelli per la creazione di nuovi file eseguire la pa
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
 ```
 
+## Terminal (Hyper)
+Installa completo di plugin il terminale Hyper
+```bash
+/tmp/dotconf/scripts/terminal.sh
+```
+
 ## Open in Hyper
 Consente di aprire nella cartella corrente hyper
 ```bash
