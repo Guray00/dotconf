@@ -19,6 +19,10 @@ cat > ~/.hyper.js <<- EOM
 module.exports = {
     config: {
 
+		hyperMacControls: {
+			flipped: false,
+		},
+
 		hyperTabs: {
 			closeAlign: "right",
 			tabIconsColored: true
