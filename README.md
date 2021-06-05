@@ -103,7 +103,7 @@ Il gestore screenshot di default non è molto utile in quanto non consente di ed
 ## Fonts
 Pacchetti font molto utili e gradevoli:
 ```bash
-sudo pacman -S --noconfirm fira-code
+sudo pacman -S --noconfirm ttf-fira-code
 yay -S --noconfirm ttf-ms-fonts
 ```
 
