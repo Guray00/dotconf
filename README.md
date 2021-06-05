@@ -113,3 +113,8 @@ Installa il tema whitesur e relative icone
 ```bash
 /tmp/dotconf/scripts/theme.sh
 ```
+# ZSH
+```bash
+sudo pacman -S zsh
+curl -L http://install.ohmyz.sh | sh
+```
