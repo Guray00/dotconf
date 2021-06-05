@@ -46,4 +46,4 @@ which
 whois
 yay
 yelp
-fira-code
+ttf-fira-code
