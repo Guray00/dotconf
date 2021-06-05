@@ -19,6 +19,14 @@ Per recuperare la lista puoi digitare `pacman -Qqen`
 ```bash
 sudo pacman -S - < /tmp/dotconf/pkgs/pacman_list.txt
 ```
+Per attivare il parallel download su pacman è sufficiente [reference](https://ostechnix.com/enable-parallel-downloading-in-pacman-in-arch-linux/): 
+```bash
+sudo nano /etc/pacman.conf
+```
+e inserire sotto # misc
+```bash
+ParallelDownloads = 5
+```
 
 #### Aur (yay)
 Per recuperare la lista puoi digitare `pacman -Qm`
