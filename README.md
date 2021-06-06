@@ -124,3 +124,4 @@ curl -L http://install.ohmyz.sh | sh
 - copy path per nautilus
 - rimozione da nautilus di "open in terminal"
 - patch di traduzione per "open in code" e "open in hyper"
+- dotfile di gimp
