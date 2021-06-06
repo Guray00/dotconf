@@ -86,7 +86,7 @@ Installa completo di plugin il terminale Hyper
 /tmp/dotconf/scripts/terminal.sh
 ```
 
-## Open in Hyper
+#### Open in Hyper
 Consente di aprire nella cartella corrente hyper
 ```bash
 yay -S nautilus-open-any-terminal
