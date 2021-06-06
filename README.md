@@ -113,8 +113,14 @@ Installa il tema whitesur e relative icone
 ```bash
 /tmp/dotconf/scripts/theme.sh
 ```
-# ZSH
+## ZSH
+Comandi per installazione di oh my zsh. Sostituire con uno script
 ```bash
 sudo pacman -S zsh
 curl -L http://install.ohmyz.sh | sh
 ```
+
+# TODO
+- copy path per nautilus
+- rimozione da nautilus di "open in terminal"
+- patch di traduzione per "open in code" e "open in hyper"
