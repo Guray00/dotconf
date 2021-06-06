@@ -47,3 +47,5 @@ whois
 yay
 yelp
 ttf-fira-code
+vlc
+avidemux
