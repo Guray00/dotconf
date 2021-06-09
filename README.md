@@ -129,6 +129,17 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 yay -S nautilus-copy-path
 ```
 
+## Crontab
+```bash
+sudo pacman -S cronie
+sudo systemctl start cronie 
+sudo systemctl enable cronie
+```
+E' inolte suggerire di cambiare in nano il default text manager:
+```bash
+echo "export EDITOR = nano" >> $ HOME / .bashrc export EDITOR = nano
+```
+
 # TODO
 - copy path per nautilus
 - rimozione da nautilus di "open in terminal"
