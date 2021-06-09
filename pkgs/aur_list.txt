@@ -12,3 +12,4 @@ whatsapp-for-linux
 nautilus-copy-path
 teamviewer
 peek-git
+anydesk-bin
