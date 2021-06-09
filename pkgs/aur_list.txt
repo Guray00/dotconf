@@ -9,3 +9,6 @@ teams
 ttf-ms-fonts
 visual-studio-code-bin
 whatsapp-for-linux
+nautilus-copy-path
+teamviewer
+peek-git
