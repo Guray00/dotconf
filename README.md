@@ -120,6 +120,15 @@ sudo pacman -S zsh
 curl -L http://install.ohmyz.sh | sh
 ```
 
+## Time-Fix
+```bash
+timedatectl set-local-rtc 1 --adjust-system-clock 
+```
+## Nautilus copy path
+```bash
+yay -S nautilus-copy-path
+```
+
 # TODO
 - copy path per nautilus
 - rimozione da nautilus di "open in terminal"
