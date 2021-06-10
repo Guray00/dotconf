@@ -49,3 +49,4 @@ yelp
 ttf-fira-code
 vlc
 avidemux
+evince
