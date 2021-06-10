@@ -140,6 +140,12 @@ E' inolte suggerire di cambiare in nano il default text manager:
 echo "export EDITOR = nano" >> $ HOME / .bashrc export EDITOR = nano
 ```
 
+## Virtual cable
+```bash
+pactl load-module module-null-sink sink_name=Virtual
+pactl load-module module-loopback sink=Virtual
+```
+
 # TODO
 - copy path per nautilus
 - rimozione da nautilus di "open in terminal"
