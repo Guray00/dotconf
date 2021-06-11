@@ -4,6 +4,7 @@ chromedriver
 gconf
 github-desktop
 realvnc-vnc-server
+realvnc-vnc-viewer
 spotify
 teams
 ttf-ms-fonts
