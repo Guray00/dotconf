@@ -50,3 +50,4 @@ ttf-fira-code
 vlc
 avidemux
 evince
+handbrake
