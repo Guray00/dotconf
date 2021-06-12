@@ -14,3 +14,4 @@ nautilus-copy-path
 teamviewer
 peek-git
 anydesk-bin
+topgrade
