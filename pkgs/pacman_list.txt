@@ -51,3 +51,4 @@ vlc
 avidemux
 evince
 handbrake
+filezilla
