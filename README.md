@@ -120,6 +120,17 @@ sudo pacman -S zsh
 curl -L http://install.ohmyz.sh | sh
 ```
 
+### Theming
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+E' necessario poi impostare `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
+
+### Impostare come default
+```bash
+chsh -s $(which zsh)
+```
+
 ## Time-Fix
 ```bash
 timedatectl set-local-rtc 1 --adjust-system-clock 
