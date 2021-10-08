@@ -1,7 +1,7 @@
 [arch-update]
 always-visible=false
 notify=true
-update-cmd="gnome-terminal -e 'sh -c  \"sudo pacman -Syu --noconfirm ; echo Done - Press enter to exit; read\" '"
+update-cmd="gnome-terminal -e 'sh -c  \"topgrade; echo; echo; echo -e Done, Press enter to exit.; read \" '"
 use-buildin-icons=false
 
 [auto-move-windows]
@@ -12,35 +12,112 @@ download-folder='/home/gray/Immagini/BingWallpaper/'
 icon-name='bing-symbolic'
 previous=',/home/gray/Immagini/BingWallpaper/20210519-RoanRhododendron_EN-US8777664012_UHD.jpg'
 
+[bitcoin-markets]
+first-run=false
+indicators=['{"api":"binance","base":"ETH","quote":"EUR","attribute":"last","show_change":false,"format":"{v} {qs}"}']
+
 [bluetooth-quick-connect]
 bluetooth-auto-power-on=true
 
 [blur-my-shell]
-blur-panel=false
-brightness=0.40000000000000002
+appfolder-dialog-opacity=0.12
+blur-dash=true
+blur-lockscreen=true
+blur-overview=true
+blur-panel=true
+brightness=0.65000000000000002
 dash-opacity=0.12
+debug=false
+hacks-level=1
+hidetopbar=false
 sigma=40
-static-blur=true
+static-blur=false
 
 [extensions-sync]
 github-gist-id='12579a0b7e6bdbacb28bdb0a842b2225'
 github-user-token='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'
 
+[gsconnect]
+devices=['2ec73b1b247b4cb8']
+id='61e6d470-9d1e-4dec-a432-eb10cd4d4d62'
+name='gray-pc'
+
+[gsconnect/device/2ec73b1b247b4cb8]
+certificate-pem='-----BEGIN CERTIFICATE-----\nMIIC9zCCAd+gAwIBAgIBATANBgkqhkiG9w0BAQsFADA/MRkwFwYDVQQDDBAyZWM3\nM2IxYjI0N2I0Y2I4MRQwEgYDVQQLDAtLREUgQ29ubmVjdDEMMAoGA1UECgwDS0RF\nMB4XDTIwMDYxMTIyMDAwMFoXDTMwMDYxMTIyMDAwMFowPzEZMBcGA1UEAwwQMmVj\nNzNiMWIyNDdiNGNiODEUMBIGA1UECwwLS0RFIENvbm5lY3QxDDAKBgNVBAoMA0tE\nRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALugcma3vieZpDgjBjyZ\nzqVchpknVS6i+voANyDvBXe9cvfZL1FWe6N/noFkFlo6X6Zt2LBShuFn8f9QHX6V\ntJGL2ZU7KYtbSASrTE1EXA8/LPGxq3SkoOwn9sAqKNptGa5eEsThlp0LUrDvzXPp\nd5HacS4vl/MWM9oeTM+c9zIjwI2a0kqXFR/HhueH3s/xmhHFlH3ZyqIq/wb3wLor\nAVkxd3+qpObxLWCGLFFjjmgeOW0ig/R8gOYUw23X8MlzNtbig2IyGS7TvT57Y+fY\nKA/oFGrCsl4xbmI4Lm1ta8mqATkZqCK03BMyipY+fu+uuEqsHC3ndfk1ZmQQzJgT\nFxsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAkqBekkLJUCeqxN0SgUvK7JnG5Hz+\nQ+mLUq+hn9M7Y6WEjrddioXsZqFfBmG1kPPxY+v26zmiN+OaM+gsjXUUslzwbi7I\nQ2dg6D/djUsu6LlLQPeiynuJcmSqEBCnNaGMdUJ+fXEBjJvI7RjAMyLjSksVhWoE\n2MXXxfFQXqncNnkIoOw3wqq5yijf/v8sYsRdjwfJQWKXClb3E/gESQ0CZgYsSNOO\n8VsLPPwwclTmMHBda1ex0kIDT4LLy74enU94pkYE/jWjwVy23MbRj4HYkH4oSVSC\nLURwEk3CmW4Kx5Uc7ZYp1byAzN3gIuYlrd9OBAPOHPa1/O7DSeDLqUg2BA==\n-----END CERTIFICATE-----\n'
+incoming-capabilities=['kdeconnect.battery.request', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report.request', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.photo.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+keybindings=@a{ss} {}
+last-connection='lan://10.3.141.193:1716'
+name='Mi 9T Pro'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.photo', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+paired=true
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'photo', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[gsconnect/device/2ec73b1b247b4cb8/plugin/battery]
+custom-battery-notification-value=uint32 80
+full-battery-notification=true
+
+[gsconnect/device/2ec73b1b247b4cb8/plugin/clipboard]
+receive-content=true
+send-content=true
+
+[gsconnect/device/2ec73b1b247b4cb8/plugin/notification]
+applications='{"Stampanti":{"iconName":"printer","enabled":true},"Condivisione desktop":{"iconName":"preferences-desktop-remote-desktop","enabled":true},"Data e ora":{"iconName":"preferences-system-time","enabled":false},"Analizzatore di utilizzo del disco":{"iconName":"org.gnome.baobab","enabled":true},"Energia":{"iconName":"gnome-power-manager","enabled":true},"Colore":{"iconName":"preferences-color","enabled":true},"File":{"iconName":"org.gnome.Nautilus","enabled":true},"Telegram Desktop":{"iconName":"telegram","enabled":false},"Orologi":{"iconName":"org.gnome.clocks","enabled":true},"Gestore di archivi":{"iconName":"org.gnome.ArchiveManager","enabled":true},"whatsapp-for-linux":{"iconName":"","enabled":false},"GNOME Shell integration":{"iconName":"org.gnome.ChromeGnomeShell","enabled":true},"EndeavourOS Update Notifier":{"iconName":"system-software-update","enabled":false},"Peek":{"iconName":"com.uploadedlobster.peek","enabled":true},"Microsoft Teams - Preview":{"iconName":"","enabled":false},"HandBrake":{"iconName":"fr.handbrake.ghb","enabled":true},"whatsapp-nativefier-d40211":{"iconName":"","enabled":false},"notify-send":{"iconName":"dialog-information-symbolic","enabled":true},"Notifica allarmi Evolution":{"iconName":"system-run-symbolic","enabled":true}}'
+send-notifications=true
+
+[gsconnect/device/2ec73b1b247b4cb8/plugin/share]
+receive-directory='/home/gray/Scaricati'
+
+[gsconnect/device/2ec73b1b247b4cb8/plugin/telephony]
+ringing-pause=true
+
+[gsconnect/device/943c38c9ca981ef3]
+incoming-capabilities=['kdeconnect.battery.request', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report.request', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.photo.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://10.3.141.117:1716'
+name='Mi 9T Pro'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.photo', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'photo', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[gsconnect/messaging]
+window-maximized=false
+window-size=(640, 480)
+
+[gsconnect/preferences]
+window-maximized=false
+window-size=(768, 440)
+
 [hidetopbar]
 animation-time-overview=0.40000000000000002
+enable-active-window=false
 hot-corner=true
 mouse-sensitive=true
 mouse-sensitive-fullscreen-window=true
 pressure-threshold=100
 show-in-overview=true
 
+[krypto]
+krypto-prefs-eth=true
+krypto-prefs-fiat-index=5
+krypto-prefs-num=1
+
 [ncom/github/hermes83/compiz-alike-windows-effect]
 friction=50.253807106598984
 manual-restore-factor=6.5050761421319798
 maximize-effect-enabled=false
+resize-effect-enabled=false
 spring=59.299492385786806
-x-tiles=3.5177664974619289
-y-tiles=3.5177664974619289
+x-tiles=3.0
+y-tiles=3.0
+
+[ncom/github/hermes83/compiz-windows-effect]
+friction=2.5
+js-engine=true
+object-movement-range=250.0
+speedup-factor-divider=1.5
+spring-k=8.5
+x-tiles=7.0
+y-tiles=6.0
 
 [screenshot]
 click-action='show-menu'
@@ -48,6 +125,11 @@ clipboard-action='none'
 copy-button-action='set-image-data'
 effect-rescale=100
 enable-indicator=true
+
+[showtime-horizontal]
+time-date-font='Noto Sans Brahmi Bold 30'
+time-position-x=835
+time-position-y=415
 
 [sound-output-device-chooser]
 expand-volume-menu=false
@@ -59,15 +141,35 @@ show-profiles=false
 [space-iflow-randomwallpaper]
 auto-fetch=true
 change-lock-screen=true
-hide-panel-icon=true
-history=['{"id":"1622783429234_photo-1442850473887-0fb77cd0b337","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1622783429234_photo-1442850473887-0fb77cd0b337","source":{"author":"Milada Vigerova","authorUrl":"https://unsplash.com/@milada_vigerova?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","source":"Unsplash","sourceUrl":"https://unsplash.com/?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","imageDownloadUrl":"https://images.unsplash.com/photo-1442850473887-0fb77cd0b337?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb","imageLinkUrl":"https://unsplash.com/photos/pQMM63GE7fo?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit"},"timestamp":1622783429234}', '{"id":"1622776168969_photo-1561473463-1e7f42b50854","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1622776168969_photo-1561473463-1e7f42b50854","source":{"author":"Davide Castaldo","authorUrl":"https://unsplash.com/@davidecas?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","source":"Unsplash","sourceUrl":"https://unsplash.com/?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","imageDownloadUrl":"https://images.unsplash.com/photo-1561473463-1e7f42b50854?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb","imageLinkUrl":"https://unsplash.com/photos/E0akoLWg3bg?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit"},"timestamp":1622776168969}', '{"id":"1622768908775_photo-1565354594824-c2c6a09f8da3","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1622768908775_photo-1565354594824-c2c6a09f8da3","source":{"author":"Sven D","authorUrl":"https://unsplash.com/@steven1302?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","source":"Unsplash","sourceUrl":"https://unsplash.com/?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","imageDownloadUrl":"https://images.unsplash.com/photo-1565354594824-c2c6a09f8da3?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb","imageLinkUrl":"https://unsplash.com/photos/Ox4IZEbDQGc?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit"},"timestamp":1622768908775}', '{"id":"1622761648710_photo-1581645956689-e4328c5002d4","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1622761648710_photo-1581645956689-e4328c5002d4","source":{"author":"Michael Browk","authorUrl":"https://unsplash.com/@michaelbrowk?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","source":"Unsplash","sourceUrl":"https://unsplash.com/?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","imageDownloadUrl":"https://images.unsplash.com/photo-1581645956689-e4328c5002d4?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb","imageLinkUrl":"https://unsplash.com/photos/WXdnj6QVAl4?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit"},"timestamp":1622761648710}', '{"id":"1622754337467_photo-1492724724894-7464c27d0ceb","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1622754337467_photo-1492724724894-7464c27d0ceb","source":{"author":"Kevin Lanceplaine","authorUrl":"https://unsplash.com/@lanceplaine?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","source":"Unsplash","sourceUrl":"https://unsplash.com/?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit","imageDownloadUrl":"https://images.unsplash.com/photo-1492724724894-7464c27d0ceb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb","imageLinkUrl":"https://unsplash.com/photos/sO-JmQj95ec?utm_source=RandomWallpaperGnome3&utm_medium=referral&utm_campaign=api-credit"},"timestamp":1622754337467}']
-hours=2
+disable-hover-preview=true
+fix-blur=true
+fix-blur-preview=false
+hide-panel-icon=false
+history=['{"id":"1633688434529_photo-1607793726482-84fa7865eaca","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633688434529_photo-1607793726482-84fa7865eaca","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNjg4NDM0&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNjg4NDM0&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNjg4NDM0&ixlib=rb-1.2.1"},"timestamp":1633688434529}', '{"id":"1633595770685_photo-1588426651288-7e828a77f413","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633595770685_photo-1588426651288-7e828a77f413","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTk1Nzcw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTk1Nzcw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTk1Nzcw&ixlib=rb-1.2.1"},"timestamp":1633595770685}', '{"id":"1633588242683_photo-1588426651288-7e828a77f413","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633588242683_photo-1588426651288-7e828a77f413","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTg4MjQy&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTg4MjQy&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTg4MjQy&ixlib=rb-1.2.1"},"timestamp":1633588242683}', '{"id":"1633558294109_photo-1625526439553-08baa1794618","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633558294109_photo-1625526439553-08baa1794618","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1625526439553-08baa1794618?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTU4Mjk0&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1625526439553-08baa1794618?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTU4Mjk0&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1625526439553-08baa1794618?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTU4Mjk0&ixlib=rb-1.2.1"},"timestamp":1633558294108}', '{"id":"1633498714501_photo-1624911352169-4be33c710c6c","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633498714501_photo-1624911352169-4be33c710c6c","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNDk4NzE0&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNDk4NzE0&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNDk4NzE0&ixlib=rb-1.2.1"},"timestamp":1633498714501}']
+hours=6
 minutes=1
-timer-last-trigger=int64 1622783428537
+source='genericJSON'
+timer-last-trigger=int64 1633682433959
+
+[space-iflow-randomwallpaper/genericJSON]
+generic-json-request-url='https://api.unsplash.com/users/guray00/likes?client_id=i44ZfpuvOdUp2A7TgFIjqxrnPaCE_y-rLnaEq3CTS98'
+generic-json-response-path='$[@random].urls.raw'
+
+[space-iflow-randomwallpaper/reddit]
+allow-sfw=true
+subreddits='EarthPorn'
 
 [space-iflow-randomwallpaper/unsplash]
-featured-only=true
-unsplash-keyword='nature'
+featured-only=false
+unsplash-collections=''
+unsplash-keyword=''
+unsplash-username=''
+
+[space-iflow-randomwallpaper/wallhaven]
+category-anime=false
+category-people=false
+resolutions='1920x1080, 2560x1440, 2560x1600, 3840x1080'
+wallhaven-keyword='nature'
 
 [tiling-assistant]
 current-tiling-mode='right'
@@ -77,6 +179,7 @@ name='WhiteSur-dark'
 
 [vitals]
 hide-zeros=true
+hot-sensors=['_memory_usage_', '_system_load_1m_']
 show-battery=false
 show-fan=false
 show-storage=false
