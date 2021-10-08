@@ -1,5 +1,5 @@
 # dotconf
-Repo di configurazione per EndevourOS [Arch linux]
+Repo di configurazione per EndevourOS [Arch linux] Si consiglia di utilizzare tali istruzioni solo su distribuzioni arch derivate con ambiente GNOME.
 
 Se è già stato effettuato un clone rimuovere la cartella con:
 ```bash
@@ -114,13 +114,25 @@ Installa il tema whitesur e relative icone
 /tmp/dotconf/scripts/theme.sh
 ```
 ## ZSH
-Comandi per installazione di oh my zsh. Sostituire con uno script
+
+### Backup automatico
+```bash
+/tmp/dotconf/scripts/backup_zsh.sh
+```
+
+### Import automatico
+```bash
+/tmp/dotconf/scripts/import_zsh.sh
+```
+
+### Manuale (sconsigliato)
+Comandi per installazione di oh my zsh.
 ```bash
 sudo pacman -S zsh
 curl -L http://install.ohmyz.sh | sh
 ```
 
-### Theming
+#### Theming
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
@@ -132,15 +144,20 @@ chsh -s $(which zsh)
 ```
 
 ## Time-Fix
+Per risolvere l'errore dell'orologio tra windows e linux.
 ```bash
 timedatectl set-local-rtc 1 --adjust-system-clock 
 ```
+
 ## Nautilus copy path
+Per copiare rapidamente il path da nautilus.
 ```bash
 yay -S nautilus-copy-path
 ```
 
 ## Crontab
+Per avere cron su arch.
+
 ```bash
 sudo pacman -S cronie
 sudo systemctl start cronie 
@@ -152,13 +169,13 @@ echo "export EDITOR = nano" >> $ HOME / .bashrc export EDITOR = nano
 ```
 
 ## Virtual cable
+Cavo virtuale per le registrazioni
 ```bash
 pactl load-module module-null-sink sink_name=Virtual
 pactl load-module module-loopback sink=Virtual
 ```
 
 # TODO
-- copy path per nautilus
 - rimozione da nautilus di "open in terminal"
 - patch di traduzione per "open in code" e "open in hyper"
 - dotfile di gimp
