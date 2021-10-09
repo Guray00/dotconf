@@ -11,7 +11,16 @@ Per inizializzare la repo:
 git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/scripts && chmod a+rwx *.sh
 ```
 
+## Dual booting windows (os probe)
+```bash
+sudo pacman -S --needed os-prober
+```
 
+successivamente:
+```bash
+sudo nano/etc/default/grub
+```
+e impostare alla fine del file la voce `GRUB_DISABLE_OS_PROBER=false`
 
 ## Software
 #### Pacman
