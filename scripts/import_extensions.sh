@@ -6,6 +6,7 @@ tar -xvf /tmp/dotconf/extensions/extensions.tar -C ~/.local/share/gnome-shell &>
 # import dconf
 dconf load /org/gnome/shell/extensions/ < /tmp/dotconf/extensions/extension-settings.dconf
 
+killall -3 gnome-shell
 
 # enable extensions
 gnome-extensions enable arch-update@RaphaelRochet
