@@ -47,6 +47,7 @@ Reference: https://www.reddit.com/r/gnome/comments/afuw4h/moving_extensions_and_
 ```bash
 /tmp/dotconf/scripts/import_extensions.sh
 ```
+Ricordati di uscire e rientrare nella sessione.
 
 ## SSH senza password
 Per accedere tramite ssh a un host senza inserire ogni volta la password sarà necessario:
@@ -124,6 +125,7 @@ Installa il tema whitesur e relative icone
 ```bash
 /tmp/dotconf/scripts/import_zsh.sh
 ```
+ATTENZIONE:modificare nel file `gray` con il nome dell'utente.
 
 ### Manuale (sconsigliato)
 Comandi per installazione di oh my zsh.
