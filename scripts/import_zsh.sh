@@ -12,4 +12,4 @@ tar -xvf /tmp/dotconf/dotfiles/zsh/.oh-my-zsh.tar -C ~/ &>/dev/null
 cp /tmp/dotconf/dotfiles/zsh/.zshrc ~/.zshrc
 cp /tmp/dotconf/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 
-echo "configurazione importata avvenuto"
+echo "configurazione importata, ATTENZIONE: cambia nel zsh export gray con il nome del tuo utente nel file zshrc!!"
