@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo pacman -S zsh --noconfirm
 
 mv ~/.oh-my-zsh ~/.oh-my-zsh_backup_$(date +%s)
 mv ~/.zshrc ~/.zshrc_backup_$(date +%s)
