@@ -153,6 +153,7 @@ E' necessario poi impostare `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zsh
 ```bash
 chsh -s $(which zsh)
 ```
+Una volta fatto ciò sarà necessario `uscire` e rientrare nella sessione.
 
 ## Time-Fix
 Per risolvere l'errore dell'orologio tra windows e linux.
