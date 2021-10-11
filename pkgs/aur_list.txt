@@ -1,7 +1,5 @@
 brave-bin
 chrome-gnome-shell
-chromedriver
-gconf
 github-desktop
 realvnc-vnc-server
 realvnc-vnc-viewer
@@ -12,6 +10,7 @@ visual-studio-code-bin
 whatsapp-for-linux
 nautilus-copy-path
 teamviewer
-peek-git
 anydesk-bin
 topgrade
+gconf
+chromedriver
