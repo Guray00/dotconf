@@ -22,6 +22,11 @@ sudo nano/etc/default/grub
 ```
 e impostare alla fine del file la voce `GRUB_DISABLE_OS_PROBER=false`
 
+Infine rigenerare il file di grub:
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ## Software
 #### Pacman
 Per recuperare la lista puoi digitare `pacman -Qqen`
