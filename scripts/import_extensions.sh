@@ -9,6 +9,15 @@ dconf load /org/gnome/shell/extensions/ < /tmp/dotconf/extensions/extension-sett
 killall -3 gnome-shell
 
 # enable extensions
+gnome-extensions enable app-switcher_current_workspace_first@fawtytoo
+gnome-extensions enable volume-mixer@evermiss.net
+gnome-extensions enable auto-move-windows@gnome-shell-extensions.gcampax.github.com
+gnome-extensions enable expandable-notifications@kaan.g.inam.org
+gnome-extensions enable fullscreen-notifications@sorrow.about.alice.pm.me 
+gnome-extensions enable native-window-placement@gnome-shell-extensions.gcampax.github.com
+gnome-extensions enable notification-timeout@chlumskyvaclav.gmail.com
+gnome-extensions enable places-menu@gnome-shell-extensions.gcampax.github.com
+
 gnome-extensions enable arch-update@RaphaelRochet
 gnome-extensions enable autohide-battery@sitnik.ru
 gnome-extensions enable bluetooth-quick-connect@bjarosze.gmail.com
