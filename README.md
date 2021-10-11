@@ -11,7 +11,7 @@ Per inizializzare la repo:
 git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/ && cd /tmp/dotconf/scripts && chmod a+rwx *.sh
 ```
 
-## Dual booting windows (os probe)
+## Dual booting windows ([os probe](https://discovery.endeavouros.com/installation/grub-dual-booting/2021/07/))
 ```bash
 sudo pacman -S --needed os-prober
 ```
