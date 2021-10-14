@@ -7,6 +7,10 @@ use-buildin-icons=false
 [auto-move-windows]
 application-list=@as []
 
+[better-osd]
+transparency=false
+vertical=0
+
 [bingwallpaper]
 download-folder='/home/gray/Immagini/BingWallpaper/'
 icon-name='bing-symbolic'
@@ -24,7 +28,7 @@ appfolder-dialog-opacity=0.12
 blur-dash=true
 blur-lockscreen=true
 blur-overview=true
-blur-panel=true
+blur-panel=false
 brightness=0.65000000000000002
 dash-opacity=0.12
 debug=false
@@ -65,7 +69,7 @@ receive-content=true
 send-content=true
 
 [gsconnect/device/2ec73b1b247b4cb8/plugin/notification]
-applications='{"Stampanti":{"iconName":"printer","enabled":true},"Condivisione desktop":{"iconName":"preferences-desktop-remote-desktop","enabled":true},"Data e ora":{"iconName":"preferences-system-time","enabled":false},"Analizzatore di utilizzo del disco":{"iconName":"org.gnome.baobab","enabled":true},"Energia":{"iconName":"gnome-power-manager","enabled":true},"Colore":{"iconName":"preferences-color","enabled":true},"File":{"iconName":"org.gnome.Nautilus","enabled":true},"Telegram Desktop":{"iconName":"telegram","enabled":false},"Orologi":{"iconName":"org.gnome.clocks","enabled":true},"Gestore di archivi":{"iconName":"org.gnome.ArchiveManager","enabled":true},"whatsapp-for-linux":{"iconName":"","enabled":false},"GNOME Shell integration":{"iconName":"org.gnome.ChromeGnomeShell","enabled":true},"EndeavourOS Update Notifier":{"iconName":"system-software-update","enabled":false},"Peek":{"iconName":"com.uploadedlobster.peek","enabled":true},"Microsoft Teams - Preview":{"iconName":"","enabled":false},"HandBrake":{"iconName":"fr.handbrake.ghb","enabled":true},"whatsapp-nativefier-d40211":{"iconName":"","enabled":false},"notify-send":{"iconName":"dialog-information-symbolic","enabled":true},"Notifica allarmi Evolution":{"iconName":"system-run-symbolic","enabled":true}}'
+applications='{"Stampanti":{"iconName":"printer","enabled":true},"Condivisione desktop":{"iconName":"preferences-desktop-remote-desktop","enabled":true},"Data e ora":{"iconName":"preferences-system-time","enabled":false},"Analizzatore di utilizzo del disco":{"iconName":"org.gnome.baobab","enabled":true},"Energia":{"iconName":"gnome-power-manager","enabled":true},"Colore":{"iconName":"preferences-color","enabled":true},"File":{"iconName":"org.gnome.Nautilus","enabled":true},"Telegram Desktop":{"iconName":"telegram","enabled":false},"Orologi":{"iconName":"org.gnome.clocks","enabled":true},"Gestore di archivi":{"iconName":"org.gnome.ArchiveManager","enabled":true},"whatsapp-for-linux":{"iconName":"","enabled":false},"GNOME Shell integration":{"iconName":"org.gnome.ChromeGnomeShell","enabled":true},"EndeavourOS Update Notifier":{"iconName":"system-software-update","enabled":false},"Peek":{"iconName":"com.uploadedlobster.peek","enabled":true},"Microsoft Teams - Preview":{"iconName":"","enabled":false},"HandBrake":{"iconName":"fr.handbrake.ghb","enabled":true},"whatsapp-nativefier-d40211":{"iconName":"","enabled":false},"notify-send":{"iconName":"dialog-information-symbolic","enabled":true},"Notifica allarmi Evolution":{"iconName":"system-run-symbolic","enabled":true},"Deluge":{"iconName":"deluge","enabled":true}}'
 send-notifications=true
 
 [gsconnect/device/2ec73b1b247b4cb8/plugin/share]
@@ -123,7 +127,12 @@ x-tiles=7.0
 y-tiles=6.0
 
 [notification-timeout]
-timeout=2000
+timeout=3000
+
+[panel-osd]
+test-notification=false
+x-pos=99.5
+y-pos=96.5
 
 [screenshot]
 click-action='show-menu'
@@ -151,11 +160,11 @@ disable-hover-preview=true
 fix-blur=true
 fix-blur-preview=false
 hide-panel-icon=false
-history=['{"id":"1633956002740_photo-1625510215743-213945a17d15","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633956002740_photo-1625510215743-213945a17d15","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzOTU2MDAy&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzOTU2MDAy&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzOTU2MDAy&ixlib=rb-1.2.1"},"timestamp":1633956002739}', '{"id":"1633709830976_photo-1625526439553-08baa1794618","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633709830976_photo-1625526439553-08baa1794618","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1625526439553-08baa1794618?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNzA5ODMw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1625526439553-08baa1794618?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNzA5ODMw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1625526439553-08baa1794618?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNzA5ODMw&ixlib=rb-1.2.1"},"timestamp":1633709830976}', '{"id":"1633688434529_photo-1607793726482-84fa7865eaca","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633688434529_photo-1607793726482-84fa7865eaca","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNjg4NDM0&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNjg4NDM0&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNjg4NDM0&ixlib=rb-1.2.1"},"timestamp":1633688434529}', '{"id":"1633595770685_photo-1588426651288-7e828a77f413","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633595770685_photo-1588426651288-7e828a77f413","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTk1Nzcw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTk1Nzcw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTk1Nzcw&ixlib=rb-1.2.1"},"timestamp":1633595770685}', '{"id":"1633588242683_photo-1588426651288-7e828a77f413","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1633588242683_photo-1588426651288-7e828a77f413","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTg4MjQy&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTg4MjQy&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjMzNTg4MjQy&ixlib=rb-1.2.1"},"timestamp":1633588242683}']
+history=['{"id":"1634202690602_photo-1588426651288-7e828a77f413","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634202690602_photo-1588426651288-7e828a77f413","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MjAyNjkw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MjAyNjkw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MjAyNjkw&ixlib=rb-1.2.1"},"timestamp":1634202690601}', '{"id":"1634193750541_photo-1624911352169-4be33c710c6c","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634193750541_photo-1624911352169-4be33c710c6c","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTkzNzUx&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTkzNzUx&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTkzNzUx&ixlib=rb-1.2.1"},"timestamp":1634193750540}', '{"id":"1634163406768_photo-1625510215743-213945a17d15","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634163406768_photo-1625510215743-213945a17d15","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTYzNDA2&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTYzNDA2&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTYzNDA2&ixlib=rb-1.2.1"},"timestamp":1634163406768}', '{"id":"1634137659361_photo-1621619856624-42fd193a0661","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634137659361_photo-1621619856624-42fd193a0661","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1621619856624-42fd193a0661?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTM3NjU5&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1621619856624-42fd193a0661?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTM3NjU5&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1621619856624-42fd193a0661?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTM3NjU5&ixlib=rb-1.2.1"},"timestamp":1634137659361}', '{"id":"1634122788467_photo-1551090508-9b7a3af5b497","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634122788467_photo-1551090508-9b7a3af5b497","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1551090508-9b7a3af5b497?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTE3MTcw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1551090508-9b7a3af5b497?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTE3MTcw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1551090508-9b7a3af5b497?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTE3MTcw&ixlib=rb-1.2.1"},"timestamp":1634122788466}']
 hours=6
 minutes=1
 source='genericJSON'
-timer-last-trigger=int64 1633942431767
+timer-last-trigger=int64 1634202690053
 
 [space-iflow-randomwallpaper/genericJSON]
 generic-json-request-url='https://api.unsplash.com/users/guray00/likes?client_id=i44ZfpuvOdUp2A7TgFIjqxrnPaCE_y-rLnaEq3CTS98'
