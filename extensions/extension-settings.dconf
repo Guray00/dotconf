@@ -9,7 +9,7 @@ application-list=@as []
 
 [better-osd]
 transparency=false
-vertical=0
+vertical=8
 
 [bingwallpaper]
 download-folder='/home/gray/Immagini/BingWallpaper/'
@@ -36,6 +36,26 @@ hacks-level=1
 hidetopbar=false
 sigma=40
 static-blur=false
+
+[dash-to-dock]
+apply-custom-theme=false
+background-color='rgb(154,153,150)'
+background-opacity=0.83999999999999997
+border-radius=30
+custom-background-color=false
+custom-theme-shrink=false
+dash-max-icon-size=48
+dock-position='BOTTOM'
+floating-margin=4
+force-straight-corner=false
+height-fraction=0.90000000000000002
+isolate-monitors=true
+isolate-workspaces=false
+max-alpha=0.80000000000000004
+preview-size-scale=0.0
+running-indicator-style='DOTS'
+show-trash=false
+transparency-mode='DYNAMIC'
 
 [expandable-notifications]
 expand-mode='CRITICAL'
@@ -69,7 +89,7 @@ receive-content=true
 send-content=true
 
 [gsconnect/device/2ec73b1b247b4cb8/plugin/notification]
-applications='{"Stampanti":{"iconName":"printer","enabled":true},"Condivisione desktop":{"iconName":"preferences-desktop-remote-desktop","enabled":true},"Data e ora":{"iconName":"preferences-system-time","enabled":false},"Analizzatore di utilizzo del disco":{"iconName":"org.gnome.baobab","enabled":true},"Energia":{"iconName":"gnome-power-manager","enabled":true},"Colore":{"iconName":"preferences-color","enabled":true},"File":{"iconName":"org.gnome.Nautilus","enabled":true},"Telegram Desktop":{"iconName":"telegram","enabled":false},"Orologi":{"iconName":"org.gnome.clocks","enabled":true},"Gestore di archivi":{"iconName":"org.gnome.ArchiveManager","enabled":true},"whatsapp-for-linux":{"iconName":"","enabled":false},"GNOME Shell integration":{"iconName":"org.gnome.ChromeGnomeShell","enabled":true},"EndeavourOS Update Notifier":{"iconName":"system-software-update","enabled":false},"Peek":{"iconName":"com.uploadedlobster.peek","enabled":true},"Microsoft Teams - Preview":{"iconName":"","enabled":false},"HandBrake":{"iconName":"fr.handbrake.ghb","enabled":true},"whatsapp-nativefier-d40211":{"iconName":"","enabled":false},"notify-send":{"iconName":"dialog-information-symbolic","enabled":true},"Notifica allarmi Evolution":{"iconName":"system-run-symbolic","enabled":true},"Deluge":{"iconName":"deluge","enabled":true}}'
+applications='{"Stampanti":{"iconName":"printer","enabled":true},"Condivisione desktop":{"iconName":"preferences-desktop-remote-desktop","enabled":true},"Data e ora":{"iconName":"preferences-system-time","enabled":false},"Analizzatore di utilizzo del disco":{"iconName":"org.gnome.baobab","enabled":true},"Energia":{"iconName":"gnome-power-manager","enabled":true},"Colore":{"iconName":"preferences-color","enabled":true},"File":{"iconName":"org.gnome.Nautilus","enabled":true},"Telegram Desktop":{"iconName":"telegram","enabled":false},"Orologi":{"iconName":"org.gnome.clocks","enabled":true},"Gestore di archivi":{"iconName":"org.gnome.ArchiveManager","enabled":true},"whatsapp-for-linux":{"iconName":"","enabled":false},"GNOME Shell integration":{"iconName":"org.gnome.ChromeGnomeShell","enabled":true},"EndeavourOS Update Notifier":{"iconName":"system-software-update","enabled":false},"Peek":{"iconName":"com.uploadedlobster.peek","enabled":true},"Microsoft Teams - Preview":{"iconName":"","enabled":false},"HandBrake":{"iconName":"fr.handbrake.ghb","enabled":true},"whatsapp-nativefier-d40211":{"iconName":"","enabled":false},"notify-send":{"iconName":"dialog-information-symbolic","enabled":true},"Notifica allarmi Evolution":{"iconName":"system-run-symbolic","enabled":true},"Deluge":{"iconName":"deluge","enabled":true},"discord":{"iconName":"","enabled":true},"blueman":{"iconName":"audio-headset","enabled":true}}'
 send-notifications=true
 
 [gsconnect/device/2ec73b1b247b4cb8/plugin/share]
@@ -78,9 +98,17 @@ receive-directory='/home/gray/Scaricati'
 [gsconnect/device/2ec73b1b247b4cb8/plugin/telephony]
 ringing-pause=true
 
+[gsconnect/device/526ef1a2b6aaa50e]
+incoming-capabilities=['kdeconnect.battery.request', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report.request', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.photo.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://10.3.141.53:1716'
+name='Mi 9T Pro'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.photo', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'photo', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
 [gsconnect/device/943c38c9ca981ef3]
 incoming-capabilities=['kdeconnect.battery.request', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report.request', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.photo.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
-last-connection='lan://10.3.141.117:1716'
+last-connection='lan://10.3.141.171:1716'
 name='Mi 9T Pro'
 outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.photo', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
 supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'photo', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
@@ -130,7 +158,7 @@ y-tiles=6.0
 timeout=3000
 
 [panel-osd]
-test-notification=false
+test-notification=true
 x-pos=99.5
 y-pos=96.5
 
@@ -150,7 +178,7 @@ time-position-y=415
 expand-volume-menu=false
 hide-on-single-device=true
 icon-theme='monochrome'
-ports-settings='{"version":2,"ports":[{"human_name":"HDMI / DisplayPort","name":"hdmi-output-0","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 2","name":"hdmi-output-1","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 2 - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 3","name":"hdmi-output-2","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 3 - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 4","name":"hdmi-output-3","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 4 - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 5","name":"hdmi-output-4","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 5 - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 6","name":"hdmi-output-5","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 6 - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 7","name":"hdmi-output-6","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 7 - GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort","name":"hdmi-output-0","display_option":2,"card_name":"alsa_card.pci-0000_00_1f.3","display_name":"HDMI / DisplayPort - Audio interno"},{"human_name":"HDMI / DisplayPort 2","name":"hdmi-output-1","display_option":2,"card_name":"alsa_card.pci-0000_00_1f.3","display_name":"HDMI / DisplayPort 2 - Audio interno"},{"human_name":"HDMI / DisplayPort 3","name":"hdmi-output-2","display_option":2,"card_name":"alsa_card.pci-0000_00_1f.3","display_name":"HDMI / DisplayPort 3 - Audio interno"},{"human_name":"HDMI / DisplayPort 4","name":"hdmi-output-3","display_option":2,"card_name":"alsa_card.pci-0000_00_1f.3","display_name":"HDMI / DisplayPort 4 - Audio interno"},{"human_name":"HDMI / DisplayPort 5","name":"hdmi-output-4","display_option":2,"card_name":"alsa_card.pci-0000_00_1f.3","display_name":"HDMI / DisplayPort 5 - Audio interno"},{"human_name":"Internal Microphone","name":"analog-input-internal-mic","display_option":2,"card_name":"alsa_card.pci-0000_00_1f.3","display_name":"Internal Microphone - Audio interno"}]}'
+ports-settings='{"version":3,"ports":[{"human_name":"HDMI / DisplayPort","name":"hdmi-output-0","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 2","name":"hdmi-output-1","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 2 - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 3","name":"hdmi-output-2","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 3 - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 4","name":"hdmi-output-3","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 4 - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 5","name":"hdmi-output-4","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 5 - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 6","name":"hdmi-output-5","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 6 - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"},{"human_name":"HDMI / DisplayPort 7","name":"hdmi-output-6","display_option":2,"card_name":"alsa_card.pci-0000_01_00.1","display_name":"HDMI / DisplayPort 7 - GP104 High Definition Audio Controller","card_description":"GP104 High Definition Audio Controller"}]}'
 show-profiles=false
 
 [space-iflow-randomwallpaper]
@@ -160,11 +188,11 @@ disable-hover-preview=true
 fix-blur=true
 fix-blur-preview=false
 hide-panel-icon=false
-history=['{"id":"1634202690602_photo-1588426651288-7e828a77f413","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634202690602_photo-1588426651288-7e828a77f413","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MjAyNjkw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MjAyNjkw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1588426651288-7e828a77f413?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MjAyNjkw&ixlib=rb-1.2.1"},"timestamp":1634202690601}', '{"id":"1634193750541_photo-1624911352169-4be33c710c6c","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634193750541_photo-1624911352169-4be33c710c6c","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTkzNzUx&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTkzNzUx&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTkzNzUx&ixlib=rb-1.2.1"},"timestamp":1634193750540}', '{"id":"1634163406768_photo-1625510215743-213945a17d15","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634163406768_photo-1625510215743-213945a17d15","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTYzNDA2&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTYzNDA2&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1625510215743-213945a17d15?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTYzNDA2&ixlib=rb-1.2.1"},"timestamp":1634163406768}', '{"id":"1634137659361_photo-1621619856624-42fd193a0661","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634137659361_photo-1621619856624-42fd193a0661","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1621619856624-42fd193a0661?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTM3NjU5&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1621619856624-42fd193a0661?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTM3NjU5&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1621619856624-42fd193a0661?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTM3NjU5&ixlib=rb-1.2.1"},"timestamp":1634137659361}', '{"id":"1634122788467_photo-1551090508-9b7a3af5b497","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1634122788467_photo-1551090508-9b7a3af5b497","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1551090508-9b7a3af5b497?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTE3MTcw&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1551090508-9b7a3af5b497?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTE3MTcw&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1551090508-9b7a3af5b497?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM0MTE3MTcw&ixlib=rb-1.2.1"},"timestamp":1634122788466}']
+history=['{"id":"1637169888183_photo-1537295300199-f10d0865dd26","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1637169888183_photo-1537295300199-f10d0865dd26","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MTY5ODg3&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MTY5ODg3&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MTY5ODg3&ixlib=rb-1.2.1"},"timestamp":1637169888183}', '{"id":"1637103535117_photo-1607793726482-84fa7865eaca","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1637103535117_photo-1607793726482-84fa7865eaca","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MTAzNTM1&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MTAzNTM1&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MTAzNTM1&ixlib=rb-1.2.1"},"timestamp":1637103535116}', '{"id":"1637081888114_photo-1607793726482-84fa7865eaca","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1637081888114_photo-1607793726482-84fa7865eaca","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MDgxODg4&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MDgxODg4&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1607793726482-84fa7865eaca?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM3MDgxODg4&ixlib=rb-1.2.1"},"timestamp":1637081888114}', '{"id":"1636973524628_photo-1624911352169-4be33c710c6c","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1636973524628_photo-1624911352169-4be33c710c6c","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM2OTczNTI0&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM2OTczNTI0&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1624911352169-4be33c710c6c?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM2OTczNTI0&ixlib=rb-1.2.1"},"timestamp":1636973524627}', '{"id":"1636957793082_photo-1537295300199-f10d0865dd26","path":"/home/gray/.cache/randomwallpaper@iflow.space/wallpapers/1636957793082_photo-1537295300199-f10d0865dd26","source":{"author":null,"authorUrl":null,"source":"Generic JSON Source","sourceUrl":"https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM2OTU3Nzky&ixlib=rb-1.2.1","imageDownloadUrl":"https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM2OTU3Nzky&ixlib=rb-1.2.1","imageLinkUrl":"https://images.unsplash.com/photo-1537295300199-f10d0865dd26?ixid=MnwyMzg4NjZ8MHwxfGFsbHx8fHx8fHwyfHwxNjM2OTU3Nzky&ixlib=rb-1.2.1"},"timestamp":1636957793082}']
 hours=6
 minutes=1
 source='genericJSON'
-timer-last-trigger=int64 1634202690053
+timer-last-trigger=int64 1639553944250
 
 [space-iflow-randomwallpaper/genericJSON]
 generic-json-request-url='https://api.unsplash.com/users/guray00/likes?client_id=i44ZfpuvOdUp2A7TgFIjqxrnPaCE_y-rLnaEq3CTS98'
@@ -188,6 +216,8 @@ wallhaven-keyword='nature'
 
 [tiling-assistant]
 current-tiling-mode='right'
+favorite-layouts=['-1']
+screen-gap=0
 
 [user-theme]
 name='WhiteSur-dark'
