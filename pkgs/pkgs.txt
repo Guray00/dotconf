@@ -237,7 +237,6 @@ powershell-bin
 pptpclient
 python-nautilus
 python-wxpython
-python2-pip
 qt5-webengine-widevine
 r8168
 realvnc-vnc-server
