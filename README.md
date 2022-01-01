@@ -47,6 +47,10 @@ Per recuperare la lista puoi digitare `pacman -Qm`
 ```bash
 yay -S - < /tmp/dotconf/pkgs/aur_list.txt
 ```
+per poi installare:
+```bash
+yay -S - < /tmp/dotconf/pkgs/pkgs.txt --needed --noconfirm
+```
 
 ## Gnome Extensions backup
 Reference: https://www.reddit.com/r/gnome/comments/afuw4h/moving_extensions_and_their_settings_to_new/
