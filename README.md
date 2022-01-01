@@ -108,7 +108,7 @@ Installa completo di plugin il terminale Hyper
 #### Open in Hyper
 Consente di aprire nella cartella corrente hyper
 ```bash
-yay -S nautilus-open-any-terminal
+yay -S nautilus-open-any-terminal --needed --noconfirm
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal hyper
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
 ```
@@ -122,8 +122,8 @@ Il gestore screenshot di default non è molto utile in quanto non consente di ed
 ## Fonts
 Pacchetti font molto utili e gradevoli:
 ```bash
-sudo pacman -S --noconfirm ttf-fira-code
-yay -S --noconfirm ttf-ms-fonts
+sudo pacman -S --noconfirm ttf-fira-code --needed --noconfirm
+yay -S --noconfirm ttf-ms-fonts --needed --noconfirm
 ```
 
 
@@ -148,7 +148,7 @@ ATTENZIONE:modificare nel file `gray` con il nome dell'utente.
 ### Manuale (sconsigliato)
 Comandi per installazione di oh my zsh.
 ```bash
-sudo pacman -S zsh
+sudo pacman -S zsh --needed --noconfirm
 curl -L http://install.ohmyz.sh | sh
 ```
 
@@ -180,7 +180,7 @@ yay -S nautilus-copy-path
 Per avere cron su arch.
 
 ```bash
-sudo pacman -S cronie
+sudo pacman -S cronie --needed --noconfirm
 sudo systemctl start cronie 
 sudo systemctl enable cronie
 ```
