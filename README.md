@@ -99,20 +99,6 @@ Per ottenere rapidamente i modelli per la creazione di nuovi file eseguire la pa
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
 ```
 
-## Terminal (Hyper)
-Installa completo di plugin il terminale Hyper
-```bash
-/tmp/dotconf/scripts/terminal.sh
-```
-
-#### Open in Hyper
-Consente di aprire nella cartella corrente hyper
-```bash
-yay -S nautilus-open-any-terminal --needed --noconfirm
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal hyper
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
-```
-
 ## Screenshot
 Il gestore screenshot di default non è molto utile in quanto non consente di editare facilmente gli screenshot, viene dunque sostituito in favore di flameshot applicando la patch:
 ```bash
@@ -194,6 +180,20 @@ Cavo virtuale per le registrazioni
 ```bash
 pactl load-module module-null-sink sink_name=Virtual
 pactl load-module module-loopback sink=Virtual
+```
+
+## Terminal (Hyper)
+Installa completo di plugin il terminale Hyper
+```bash
+/tmp/dotconf/scripts/terminal.sh
+```
+
+#### Open in Hyper
+Consente di aprire nella cartella corrente hyper
+```bash
+yay -S nautilus-open-any-terminal --needed --noconfirm
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal hyper
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
 ```
 
 # TODO
