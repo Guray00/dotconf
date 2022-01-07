@@ -39,13 +39,14 @@ static-blur=false
 
 [dash-to-dock]
 apply-custom-theme=false
-background-color='rgb(154,153,150)'
-background-opacity=0.83999999999999997
+background-color='rgb(229,165,10)'
+background-opacity=0.17999999999999999
 border-radius=30
-custom-background-color=false
+custom-background-color=true
 custom-theme-shrink=false
 dash-max-icon-size=48
 dock-position='BOTTOM'
+extend-height=false
 floating-margin=4
 force-straight-corner=false
 height-fraction=0.90000000000000002
@@ -55,7 +56,7 @@ max-alpha=0.80000000000000004
 preview-size-scale=0.0
 running-indicator-style='DOTS'
 show-trash=false
-transparency-mode='DYNAMIC'
+transparency-mode='FIXED'
 
 [expandable-notifications]
 expand-mode='CRITICAL'
@@ -68,6 +69,7 @@ github-user-token='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'
 devices=['2ec73b1b247b4cb8']
 id='61e6d470-9d1e-4dec-a432-eb10cd4d4d62'
 name='gray-pc'
+show-indicators=false
 
 [gsconnect/device/2ec73b1b247b4cb8]
 certificate-pem='-----BEGIN CERTIFICATE-----\nMIIC9zCCAd+gAwIBAgIBATANBgkqhkiG9w0BAQsFADA/MRkwFwYDVQQDDBAyZWM3\nM2IxYjI0N2I0Y2I4MRQwEgYDVQQLDAtLREUgQ29ubmVjdDEMMAoGA1UECgwDS0RF\nMB4XDTIwMDYxMTIyMDAwMFoXDTMwMDYxMTIyMDAwMFowPzEZMBcGA1UEAwwQMmVj\nNzNiMWIyNDdiNGNiODEUMBIGA1UECwwLS0RFIENvbm5lY3QxDDAKBgNVBAoMA0tE\nRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALugcma3vieZpDgjBjyZ\nzqVchpknVS6i+voANyDvBXe9cvfZL1FWe6N/noFkFlo6X6Zt2LBShuFn8f9QHX6V\ntJGL2ZU7KYtbSASrTE1EXA8/LPGxq3SkoOwn9sAqKNptGa5eEsThlp0LUrDvzXPp\nd5HacS4vl/MWM9oeTM+c9zIjwI2a0kqXFR/HhueH3s/xmhHFlH3ZyqIq/wb3wLor\nAVkxd3+qpObxLWCGLFFjjmgeOW0ig/R8gOYUw23X8MlzNtbig2IyGS7TvT57Y+fY\nKA/oFGrCsl4xbmI4Lm1ta8mqATkZqCK03BMyipY+fu+uuEqsHC3ndfk1ZmQQzJgT\nFxsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAkqBekkLJUCeqxN0SgUvK7JnG5Hz+\nQ+mLUq+hn9M7Y6WEjrddioXsZqFfBmG1kPPxY+v26zmiN+OaM+gsjXUUslzwbi7I\nQ2dg6D/djUsu6LlLQPeiynuJcmSqEBCnNaGMdUJ+fXEBjJvI7RjAMyLjSksVhWoE\n2MXXxfFQXqncNnkIoOw3wqq5yijf/v8sYsRdjwfJQWKXClb3E/gESQ0CZgYsSNOO\n8VsLPPwwclTmMHBda1ex0kIDT4LLy74enU94pkYE/jWjwVy23MbRj4HYkH4oSVSC\nLURwEk3CmW4Kx5Uc7ZYp1byAzN3gIuYlrd9OBAPOHPa1/O7DSeDLqUg2BA==\n-----END CERTIFICATE-----\n'
@@ -137,11 +139,11 @@ krypto-prefs-fiat-index=5
 krypto-prefs-num=1
 
 [ncom/github/hermes83/compiz-alike-windows-effect]
-friction=50.253807106598984
-manual-restore-factor=6.5050761421319798
+friction=43.0
+manual-restore-factor=7.0
 maximize-effect-enabled=false
 resize-effect-enabled=false
-spring=59.299492385786806
+spring=66.0
 x-tiles=3.0
 y-tiles=3.0
 
@@ -155,11 +157,12 @@ x-tiles=7.0
 y-tiles=6.0
 
 [notification-timeout]
-timeout=3000
+timeout=1000
 
 [panel-osd]
-test-notification=true
-x-pos=99.5
+force-expand=true
+test-notification=false
+x-pos=99.0
 y-pos=96.5
 
 [screenshot]
@@ -192,7 +195,7 @@ history=['{"id":"1637169888183_photo-1537295300199-f10d0865dd26","path":"/home/g
 hours=6
 minutes=1
 source='genericJSON'
-timer-last-trigger=int64 1639553944250
+timer-last-trigger=int64 1641553831424
 
 [space-iflow-randomwallpaper/genericJSON]
 generic-json-request-url='https://api.unsplash.com/users/guray00/likes?client_id=i44ZfpuvOdUp2A7TgFIjqxrnPaCE_y-rLnaEq3CTS98'
