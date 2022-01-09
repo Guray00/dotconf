@@ -3,7 +3,31 @@
 # CHANGES SCREENSHOT MANAGER
 # reference: https://askubuntu.com/questions/1036473/how-to-change-screenshot-application-to-flameshot-on-ubuntu-18-04/1039949#1039949
 
-yay -S --noconfirm --quiet --needed flameshot
+#probe os here
+apt -v >>.log 2>&1
+if [ $? -eq 0 ]
+then
+	DISTRO=DEBIAN
+fi
+pacman -V >>.log 2>&1
+if [ $? -eq 0 ]
+then
+	DISTRO=ARCH
+fi
+
+echo "Detected system type: " $DISTRO
+
+###### Installing flameshot
+if [ $DISTRO == "DEBIAN" ]
+then
+	sudo apt install flameshot -y
+fi
+if [ $DISTRO == "ARCH" ]
+then
+	yay -S --noconfirm --quiet --needed flameshot
+fi
+
+
 gsettings set org.gnome.settings-daemon.plugins.media-keys screenshot '[]'
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name 'flameshot'
