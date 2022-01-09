@@ -26,6 +26,8 @@ Infine rigenerare il file di grub:
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+## Passare da wayland a x11
+Attraverso il comando `echo $XDG_SESSION_TYPE` è possibile verificare su quale versione si è attualmente. Per passare a x11 è sufficiente rimuovere il '#' al commento `#WaylandEnable=false` mediante `sudo nano /etc/gdm/custom.conf`, portandolo a essere `WaylandEnable=false`.
 
 ## Software
 #### Pacman
