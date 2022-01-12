@@ -177,6 +177,12 @@ E' inolte suggerire di cambiare in nano il default text manager:
 echo "export EDITOR = nano" >> $ HOME / .bashrc export EDITOR = nano
 ```
 
+## Servizi da attivare
+Per attivare teamviewer:
+```bash
+sudo systemctl enable --now teamviewerd.service
+```
+
 ## Virtual cable
 Cavo virtuale per le registrazioni
 ```bash
