@@ -16,7 +16,7 @@ confirm() {
 
 
 # ======================
-# 		QUESTIONS
+#       QUESTIONS
 # ======================
 confirm "Installare open in nautilus? [y/N]"
 oin=${response,,}
@@ -27,7 +27,7 @@ x11=${response,,}
 
 
 # ======================
-# 		INSTALL
+#        INSTALL
 # ======================
 must=( python3 )
 for i in "${must[@]}"
@@ -37,7 +37,7 @@ done
 
 
 # ======================
-# 		time-fix
+#       time-fix
 # ======================
 echo "Fix dell'orario in corso"
 timedatectl set-local-rtc 1 --adjust-system-clock 
@@ -60,7 +60,7 @@ then
 fi
 
 # ======================
-# 		  x11
+#         x11
 # ======================
 if [[ "$x11" =~ ^(y)$ ]]
 then 
