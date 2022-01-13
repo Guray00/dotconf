@@ -14,6 +14,7 @@ confirm() {
     esac
 }
 
+git clone https://github.com/Guray00/dotconf/ /tmp/dotconf/
 
 # ======================
 #       QUESTIONS
