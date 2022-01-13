@@ -3,7 +3,7 @@ Repo di configurazione per EndevourOS [Arch linux] Si consiglia di utilizzare ta
 Per avviare l'installer (NON PRONTO ANCORA) eseguire:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Guray00/unipi_logger/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/Guray00/unipi_logger/martina/install.sh | bash
 ```
 
 Se è già stato effettuato un clone rimuovere la cartella con:
