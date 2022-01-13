@@ -44,16 +44,22 @@ echo "Fix dell'orario in corso"
 timedatectl set-local-rtc 1 --adjust-system-clock 
 
 
-# installare tema, icone, ecc 
+# ======================
+#        theme
+# ======================
 echo "Installando il tema"
 /tmp/dotconf/scripts/theme.sh 
 
-# modelli    
+# ======================
+#        models
+# ======================   
 echo "Aggiungendo i modelli"
 /tmp/dotconf/scripts/models.sh
 
 
-# open-in-nautilus 
+# ======================
+#        nautilus
+# ======================   
 if [[ "$tw" =~ ^(y)$ ]]
 then 
 	echo "Installazione open in nautilus"
