@@ -4,7 +4,7 @@
 # theme
 rm -Rf /tmp/dotconf/.theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme /tmp/dotconf/.theme
-/tmp/dotconf/.theme/install.sh -c dark --icon arch
+/tmp/dotconf/.theme/install.sh -c dark -t pink --icon simple
 
 # icons
 rm -Rf /tmp/dotconf/.icons
