@@ -30,7 +30,7 @@ x11=${response,,}
 # ======================
 #        INSTALL
 # ======================
-must=( python3 )
+must=( python3 git )
 for i in "${must[@]}"
 do
 	sudo apt-get -qq install $i -y
