@@ -187,6 +187,11 @@ Per attivare teamviewer:
 ```bash
 sudo systemctl enable --now teamviewerd.service
 ```
+per syncthing
+```bash
+sudo systemctl enable syncthing@gray.service
+sudo systemctl start syncthing@gray.service
+```
 
 ## Virtual cable
 Cavo virtuale per le registrazioni
